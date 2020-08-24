@@ -8,14 +8,15 @@ h1{
 }
 
 p{
-    color: brown;
+    padding:20px
 }
 
 #chicken{
-    background-color: blue;
+    background-color: pink;
     width: 100px;
    
     float: right;
+    
     border-radius: 0ch;
 border-style: solid;
 border-color: black;
@@ -23,7 +24,7 @@ text-align: center;
 
 }
 #beef{
-    background-color: purple;
+    background-color: red;
     width: 100px;
     float: right;
     border-radius: 0ch;
@@ -32,7 +33,7 @@ border-color: black;
 text-align: center;
 }
 #sushi{
-    background-color:green;
+    background-color:yellow;
     width: 100px;
     float: right;
     border-radius: 0ch;
