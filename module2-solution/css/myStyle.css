@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    color: brown;
+}
+
+#chicken{
+    background-color: blue;
+    width: 100px;
+   
+    float: right;
+    border-radius: 0ch;
+border-style: solid;
+border-color: black;
+text-align: center;
+
+}
+#beef{
+    background-color: purple;
+    width: 100px;
+    float: right;
+    border-radius: 0ch;
+border-style: solid;
+border-color: black;
+text-align: center;
+}
+#sushi{
+    background-color:green;
+    width: 100px;
+    float: right;
+    border-radius: 0ch;
+border-style: solid;
+border-color: black;
+text-align: center;
+}
+@media(min-width:992px){
+    .box1,.box2,.box3{
+        background-color: lightgrey;
+        width:32%;
+        
+        position: relative;
+        margin:0.6%;
+        border-radius: 0ch;
+        border-style: solid;
+        border-color: black;
+        
+        float: left;
+        
+        }
+       
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .box1,.box2{
+        background-color: lightgrey;
+        width:48%;
+        
+       
+        margin:0.6%;
+        border-radius: 0ch;
+        border-style: solid;
+        border-color: black;
+        
+        float: left;
+        
+        }
+        .box3{
+            background-color: lightgrey;
+            width:97.2%;
+            
+          
+            margin:0.6%;
+            border-radius: 0ch;
+            border-style: solid;
+            border-color: black;
+            
+            float: left;
+            
+            }
+
+}
+
+@media(max-width:767px){
+    .box1,.box2,.box3{
+        background-color: lightgrey;
+        width:98%;
+        
+        
+        margin:0.6%;
+        border-radius: 0ch;
+        border-style: solid;
+        border-color: black;
+        
+        
+        
+        }
+}
